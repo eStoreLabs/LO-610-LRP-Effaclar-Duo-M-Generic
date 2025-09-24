@@ -967,7 +967,7 @@ body {
 			transition: all 0.3s ease-out;
 		}
 
-		.active .es-accordion__arrow {
+		.es-active .es-accordion__arrow {
 			-webkit-transform: rotate(180deg);
 			transform: rotate(180deg);
 		}

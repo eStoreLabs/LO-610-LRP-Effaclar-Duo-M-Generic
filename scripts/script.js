@@ -3,17 +3,17 @@
 
   for (let i = 0; i < accTab.length; i++) {
     accTab[i].addEventListener('click', function () {
-      this.classList.add('active');
+      this.classList.add('es-active');
       let accTabContent = this.nextElementSibling;
 
       const hideContent = () => {
         accTabContent.style.maxHeight = null;
-        this.classList.remove('active');
+        this.classList.remove('es-active');
       };
 
       const showContent = () => {
         accTabContent.style.maxHeight = accTabContent.scrollHeight + 'px';
-        this.classList.add('active');
+        this.classList.add('es-active');
       };
 
       if (accTabContent.style.maxHeight) {
@@ -24,31 +24,31 @@
     });
   }
 
-  const swiper = new Swiper('.es-swiper1', {
+  const swiper = new Swiper('#es-rc .es-swiper1', {
     direction: 'horizontal',
     loop: true,
 
     pagination: {
-      el: '.es-swiper1-pagination',
+      el: '#es-rc .es-swiper1-pagination',
     },
 
     navigation: {
-      nextEl: '.es-swiper1-button-next',
-      prevEl: '.es-swiper1-button-prev',
+      nextEl: '#es-rc .es-swiper1-button-next',
+      prevEl: '#es-rc .es-swiper1-button-prev',
     },
   });
 
-  const swiper2 = new Swiper('.es-swiper2', {
+  const swiper2 = new Swiper('#es-rc .es-swiper2', {
     direction: 'horizontal',
     loop: true,
 
     pagination: {
-      el: '.es-swiper2-pagination',
+      el: '#es-rc .es-swiper2-pagination',
     },
 
     navigation: {
-      nextEl: '.es-swiper2-button-next',
-      prevEl: '.es-swiper2-button-prev',
+      nextEl: '#es-rc .es-swiper2-button-next',
+      prevEl: '#es-rc .es-swiper2-button-prev',
     },
   });
 })();
