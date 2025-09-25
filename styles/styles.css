@@ -765,7 +765,7 @@ body {
     max-width: 22%;
   }
   #es-rc #es-rc-content .es-benefits__single:nth-child(3) {
-    max-width: 30%;
+    max-width: 22%;
   }
 }
 @media (min-width: 576px) {
