@@ -483,8 +483,12 @@
 #es-rc #es-rc-content .es-products__single--img {
   margin-left: 20px;
 }
-#es-rc #es-rc-content .es-products__single--img img {
+#es-rc #es-rc-content .es-products__single--img-2,
+#es-rc #es-rc-content .es-products__single--img-3 {
   max-height: 290px;
+}
+#es-rc #es-rc-content .es-products__single--img-1 {
+  max-height: 330px;
   transition: all 0.3s ease-in-out;
 }
 #es-rc #es-rc-content .es-products__single--img img:hover {

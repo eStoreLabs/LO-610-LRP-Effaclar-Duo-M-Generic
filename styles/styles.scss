@@ -649,8 +649,13 @@ $background-color_6: #f4f4f4;
 			margin-left: 20px;
 		}
 
-		.es-products__single--img img {
+		.es-products__single--img-2,
+		.es-products__single--img-3 {
 			max-height: 290px;
+		}
+
+		.es-products__single--img-1 {
+			max-height: 330px;
 			-webkit-transition: all 0.3s ease-in-out;
 			transition: all 0.3s ease-in-out;
 		}
